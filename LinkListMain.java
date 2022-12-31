@@ -28,5 +28,13 @@ public class LinkListMain {
         list4.insert(30);
         list4.show();
 
+        Integer popFirstElement = list1.popFirst();
+        if (popFirstElement == null) {
+            System.out.println("Linked List Empty");
+        } else {
+            System.out.println("Popped the first element -> "+popFirstElement);
+        }
+        list1.show();
+
     }
 }
