@@ -35,6 +35,13 @@ public class LinkListMain {
             System.out.println("Popped the first element -> "+popFirstElement);
         }
         list1.show();
+        Integer popLastElement = list3.popLast();
+        if (popLastElement == null) {
+            System.out.println("Linked List Empty");
+        } else {
+            System.out.println("Popped the last element -> "+popLastElement);
+        }
+        list3.show();
 
     }
 }
